@@ -11,14 +11,43 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="msapplication-starturl" content="/">
   <meta name="theme-color" content="#f48c5b">
-
   <link rel="manifest" href="/manifest.json">
+ <!--  <link href=https://fonts.googleapis.com/icon?family=Material+Icons rel="stylesheet"> -->
 </head>
 <body>
 	<body>
   <!-- omitted -->
 
-  </script>
-  <app-root></app-root>
+  <!-- <script>
+  const messaging = firebase.messaging();
+  // [END get_messaging_object]
+  // IDs of divs that display Instance ID token UI or request permission UI.
+
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAqV4hWEayet0tcWX7DYtCQYmzPaRWi4t0",
+    authDomain: "docsvayam.firebaseapp.com",
+    databaseURL: "https://docsvayam.firebaseio.com",
+    projectId: "docsvayam",
+    storageBucket: "docsvayam.appspot.com",
+    messagingSenderId: "946231531235"
+  };
+  firebase.initializeApp(config);
+</script> -->
+
+<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAqV4hWEayet0tcWX7DYtCQYmzPaRWi4t0",
+    authDomain: "docsvayam.firebaseapp.com",
+    databaseURL: "https://docsvayam.firebaseio.com",
+    projectId: "docsvayam",
+    storageBucket: "docsvayam.appspot.com",
+    messagingSenderId: "946231531235"
+  };
+  firebase.initializeApp(config);
+</script>
+  <app-root><div class="loading"></div></app-root>
 </body>
 </html>
